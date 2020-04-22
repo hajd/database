@@ -1,2 +1,4 @@
 Tutorial - GIT
 https://naucse.python.cz/lessons/git/git-collaboration-2in1/
+PowerShell - nastaveni prostredi:
+https://tecadmin.net/powershell-running-scripts-is-disabled-system/
