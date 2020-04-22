@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="947c8048-29ec-4b9f-9e16-e8dbdcf1c4fd" name="Default Changelist" comment="" />
+    <list default="true" id="947c8048-29ec-4b9f-9e16-e8dbdcf1c4fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbstart.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insert_zivocich.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JakNastavitGitHub.txt" beforeDir="false" afterPath="$PROJECT_DIR$/JakNastavitGitHub.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbstart.ps1" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,10 +27,30 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\database" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="console.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$APPLICATION_CONFIG_DIR$/consoles/db/a8de29bc-36dc-476b-8977-e46172c55403/console.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.console.sql" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -35,11 +63,33 @@
       <option name="presentableId" value="Default" />
       <updated>1587560690664</updated>
       <workItem from="1587560693185" duration="1829000" />
-      <workItem from="1587570456323" duration="599000" />
+      <workItem from="1587570456323" duration="14263000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="336" y="364" key="#SQL_Dialects" timestamp="1587587526688">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="336" y="364" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1587587526688" />
+    <state x="552" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587586343043">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587586343043" />
+    <state x="676" y="176" key="#console.sql" timestamp="1587586689878">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="676" y="176" key="#console.sql/0.0.1920.1040@0.0.1920.1040" timestamp="1587586689878" />
+    <state x="463" y="166" key="SettingsEditor" timestamp="1587586717330">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587586717330" />
+    <state x="883" y="468" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1587586727685">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="883" y="468" key="com.intellij.database.run.ParametersPanel.Standalone/0.0.1920.1040@0.0.1920.1040" timestamp="1587586727685" />
   </component>
 </project>

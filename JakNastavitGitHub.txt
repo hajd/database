@@ -2,8 +2,10 @@
 2. spustit powershell v administratorskem režimu
     spustit: Set-ExecutionPolicy RemoteSigned
      - povolí spuštění skriptů
+2.a Nainstalovat: https://github.com/PowerShell/Win32-OpenSSH/releases
 
 3. NASTAVENÍ GIT, GITHUB:
+    - https://kbroman.org/github_tutorial/pages/first_time.html
     git config --global user.name "uzivatelske jmeno"
     git config --global user.email "email@domena.xx"
 4. VYTVORIME SIFROVACI KLIC:
@@ -23,4 +25,4 @@
     ls
     cd database
     git status
-    
+
