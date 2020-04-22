@@ -1,0 +1,26 @@
+1. POWERSHELL:
+2. spustit powershell v administratorskem režimu
+    spustit: Set-ExecutionPolicy RemoteSigned
+     - povolí spuštění skriptů
+
+3. NASTAVENÍ GIT, GITHUB:
+    git config --global user.name "uzivatelske jmeno"
+    git config --global user.email "email@domena.xx"
+4. VYTVORIME SIFROVACI KLIC:
+    ssh-keygen -t rsa -C "email@domena.xx"
+    - vytvořený klíč vložíme do nastavení GitHubu - > SSH keys and GPG keys
+    ssh-add -l
+    - příkaz vypíše RSA klíče
+5. OTESTUJEME PŘIPOJENÍ NA GITHUB POMOCÍ KLÍČE:
+    ssh -T git@github.com
+
+6. V POWERSHELL SE PŘEPNEME DO SPRÁVNÉHO ADRESÁŘE:
+    cd c:\xampp\htdocs   ................
+7. NAKLONUJEME REPOSITÁŘ
+    git clone git@github.com:hajd/database.git
+
+8. ZKONTROLUJEME, ŽE JE VŠE OK
+    ls
+    cd database
+    git status
+    
