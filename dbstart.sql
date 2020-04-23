@@ -13,7 +13,6 @@ CREATE DATABASE IF NOT EXISTS planeta;
 SELECT database();      # která databáze je právě používána
 DROP DATABASE nazev_databaze;  # smaže databázi
 
-
 use planeta;       # planeta je název databáze
 create table if not exists zivocich (
     id int(3) not null primary key auto_increment,
@@ -50,3 +49,11 @@ SELECT * from zivocich where id = 64;
 UPDATE zivocich SET kontinent = "Antarktida" WHERE id = 64;
 
 DELETE FROM zivocich WHERE id = 79;
+
+SELECT COUNT(kontinent) FROM zivocich WHERE kontinent = "Amerika";
+
+alter table zivocich add cena int(10);    # pridam sloupec s cenou
+UPDATE zivocich SET cena = ROUND(RAND() * (10000-10) + 10) WHERE id = ROUND(RAND() * (80-10) + 10);  # zopakuj 100 x :-D
+UPDATE zivocich SET cena = 10000 where zivocich.cena is null;    #v podmince mohu specifikovat o kterou tabulku jde
+
+SELECT SUM(cena) FROM zivocich WHERE kontinent = "Evropa";
