@@ -65,16 +65,3 @@ SELECT SUM(cena) FROM zivocich WHERE kontinent = "Evropa";
 # --------------------------------
 UPDATE zivocich SET cena = ROUND(RAND() * (10000-10) + 10) WHERE id = ROUND(RAND() * (80-10) + 10);
 UPDATE zivocich SET cena = ROUND(RAND() * (10000-10) + 10) WHERE id = ROUND(RAND() * (80-10) + 10);
-UPDATE zivocich SET cena = ROUND(RAND() * (10000-10) + 10) WHERE id = ROUND(RAND() * (80-10) + 10);
-UPDATE zivocich SET cena = ROUND(RAND() * (10000-10) + 10) WHERE id = ROUND(RAND() * (80-10) + 10);
-UPDATE zivocich SET cena = ROUND(RAND() * (10000-10) + 10) WHERE id = ROUND(RAND() * (80-10) + 10);
-UPDATE zivocich SET cena = ROUND(RAND() * (10000-10) + 10) WHERE id = ROUND(RAND() * (80-10) + 10);
-UPDATE zivocich SET cena = ROUND(RAND() * (10000-10) + 10) WHERE id = ROUND(RAND() * (80-10) + 10);
-UPDATE zivocich SET cena = ROUND(RAND() * (10000-10) + 10) WHERE id = ROUND(RAND() * (80-10) + 10);
-UPDATE zivocich SET cena = ROUND(RAND() * (10000-10) + 10) WHERE id = ROUND(RAND() * (80-10) + 10);
-UPDATE zivocich SET cena = ROUND(RAND() * (10000-10) + 10) WHERE id = ROUND(RAND() * (80-10) + 10);
-UPDATE zivocich SET cena = ROUND(RAND() * (10000-10) + 10) WHERE id = ROUND(RAND() * (80-10) + 10);
-UPDATE zivocich SET cena = ROUND(RAND() * (10000-10) + 10) WHERE id = ROUND(RAND() * (80-10) + 10);
-UPDATE zivocich SET cena = ROUND(RAND() * (10000-10) + 10) WHERE id = ROUND(RAND() * (80-10) + 10);
-UPDATE zivocich SET cena = ROUND(RAND() * (10000-10) + 10) WHERE id = ROUND(RAND() * (80-10) + 10);
-UPDATE zivocich SET cena = ROUND(RAND() * (10000-10) + 10) WHERE id = ROUND(RAND() * (80-10) + 10);
