@@ -1,6 +1,6 @@
 1. POWERSHELL:
 2. spustit powershell v administratorskem režimu
-    spustit: Set-ExecutionPolicy RemoteSigned
+    spustit: Set-ExecutionPolicy RemoteSigned (jen v případě nutnosti)
      - povolí spuštění skriptů
 2.a Nainstalovat: https://github.com/PowerShell/Win32-OpenSSH/releases
 
@@ -12,7 +12,7 @@
     ssh-keygen -t rsa -C "email@domena.xx"
     - vytvořený klíč vložíme do nastavení GitHubu - > SSH keys and GPG keys
     ssh-add -l
-    - příkaz vypíše RSA klíče
+    - příkaz vypíše RSA klíče (na Linuxu)
 5. OTESTUJEME PŘIPOJENÍ NA GITHUB POMOCÍ KLÍČE:
     ssh -T git@github.com
 
