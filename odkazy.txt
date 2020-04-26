@@ -2,3 +2,13 @@ Tutorial - GIT
 https://naucse.python.cz/lessons/git/git-collaboration-2in1/
 PowerShell - nastaveni prostredi:
 https://tecadmin.net/powershell-running-scripts-is-disabled-system/
+
+Změna, reset hesla k databázi mySQL:
+https://phoenixnap.com/kb/how-to-reset-mysql-root-password-windows-linux
+    Win+R: services.msc ; zastavit službu, možno udělat v XAMPP kontrol
+
+    Vytvořit tetový soubor (např. init.txt):
+    ALTER USER 'root'@'localhost' IDENTIFIED BY 'NewPassword';
+
+    Z příkazového řádku spustit:
+    mysqld --init-file=C:\\init.txt

@@ -3,6 +3,7 @@
     spustit: Set-ExecutionPolicy RemoteSigned
      - povolí spuštění skriptů
 2.a Nainstalovat: https://github.com/PowerShell/Win32-OpenSSH/releases
+    https://github.com/PowerShell/Win32-OpenSSH/releases
 
 3. NASTAVENÍ GIT, GITHUB:
     - https://kbroman.org/github_tutorial/pages/first_time.html
